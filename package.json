@@ -1,7 +1,7 @@
 {
   "name": "ember-rrule",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "rrule integration in Ember.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,12 +11,18 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omninnov/ember-rrule.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Frédéric Mascaro",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omninnov/ember-rrule/issues"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
     "ember-ajax": "0.7.1",
@@ -40,7 +46,8 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "rrule"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
